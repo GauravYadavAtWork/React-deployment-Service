@@ -1,0 +1,47 @@
+.heading{
+    font-size: 30px;
+    text-align: center;
+}
+
+.logcontainer {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.logbox {
+    padding: 10px;
+    width: 75vw;
+    height: 75vh;
+    background-color: black;
+    border-radius: 5px;
+    color: green;
+    overflow-y: auto;
+}
+
+.logbox::-webkit-scrollbar {
+    width: 7px; /* Width of the scrollbar */
+}
+
+/* Track */
+.logbox::-webkit-scrollbar-track {
+    background: transparent; /* Background color of the track */
+}
+
+/* Handle */
+.logbox::-webkit-scrollbar-thumb {
+    background: #c1c0c0; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+.logbox::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1; /* Color of the scrollbar handle on hover */
+}
+
+.logbox > div {
+    font-size: 20px;
+    margin: 3px;
+}

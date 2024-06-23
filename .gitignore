@@ -1,0 +1,6 @@
+clone-build-upload/node_modules
+MessageQueue-Service/node_modules
+object-store-retrive/node_modules
+objectstore/node_modules
+vercelFrontend/node_modules
+vercelhandlerserver/node_modules
